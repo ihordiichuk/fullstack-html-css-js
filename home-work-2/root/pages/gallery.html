@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .header header {
+            text-align: center;
+            padding: 0;
+            display: inline;
+
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            /* Space between columns */
+        }
+
+        .gallery .flex {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /* Two equal-width columns */
+            gap: 16px;
+            width: 100%;
+        }
+
+        .gallery figure {
+            margin: 0;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .gallery figcaption {
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 8px;
+            color: #555;
+        }
+
+        .navigation-menu {
+            text-align: center;
+        }
+
+        .navigation-menu ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .navigation-menu li {
+            display: inline;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Gallery</h1>
+        <nav class="navigation-menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <div class="flex">
+                <figure>
+                    <a href="#" target="_blank">
+                        <img src="/home-work-2/images/photo-1725489891043-44182c9d0393.jpg" alt="Image 1">
+                    </a>
+                    <figcaption>Image 1 Caption</figcaption>
+                </figure>
+                <figure>
+                    <a href="#" target="_blank">
+                        <img src="/home-work-2/images/photo-1728347736799-3342c4a79fa8.jpg" alt="Image 2">
+                    </a>
+                    <figcaption>Image 2 Caption</figcaption>
+                </figure>
+                <figure>
+                    <a href="#" target="_blank">
+                        <img src="/home-work-2/images/photo-1729180801690-d7db9ea35867.jpg" alt="Image 3">
+                    </a>
+                    <figcaption>Image 3 Caption</figcaption>
+                </figure>
+                <figure>
+                    <a href="#" target="_blank">
+                        <img src="/home-work-2/images/photo-1729731321970-136734aabb36.jpg" alt="Image 4">
+                    </a>
+                    <figcaption>Image 4 Caption</figcaption>
+                </figure>
+                <figure>
+                    <a href="#" target="_blank">
+                        <img src="/home-work-2/images/photo-1730292423405-29ebe8d9257e.jpg" alt="Image 5">
+                    </a>
+                    <figcaption>Image 5 Caption</figcaption>
+                </figure>
+                <figure>
+                    <a href="#" target="_blank">
+                        <img src="/home-work-2/images/photo-1730320047161-10b0352bde32.jpg" alt="Image 6">
+                    </a>
+                    <figcaption>Image 6 Caption</figcaption>
+                </figure>
+                <figure>
+                    <a href="#" target="_blank">
+                        <img src="/home-work-2/images/premium_photo-1684952848980-ae30a28543d6.jpg" alt="Image 7">
+                    </a>
+                    <figcaption>Image 7 Caption</figcaption>
+                </figure>
+                <figure>
+                    <a href="#" target="_blank">
+                        <img src="/home-work-2/images/premium_photo-1720020552740-072db3289c27.jpg" alt="Image 8">
+                    </a>
+                    <figcaption>Image 8 Caption</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ihor Hordiichuk</p>
+    </footer>
+
+</body>
+
+</html>
