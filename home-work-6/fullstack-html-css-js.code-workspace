@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Desktop/FS-JS/fullstack-html-css-js/home-work-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "fullstack-html-css-js"
+	}
+}
