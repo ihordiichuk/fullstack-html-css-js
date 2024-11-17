@@ -4,6 +4,8 @@
 }
 
 .mondrian-table {
+  min-width: 400px;
+  max-width: 400px;
   margin-top: 30px;
   margin-bottom: 30px;
   /* width: 400px; */
